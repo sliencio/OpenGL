@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/sliencio/CLionProjects/OpenGLTest/glad.c" "/Users/sliencio/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/OpenGLTest.dir/glad.c.o"
+  "/Users/sliencio/CLionProjects/OpenGL/OpenGLTest/glad.c" "/Users/sliencio/CLionProjects/OpenGL/OpenGLTest/cmake-build-debug/CMakeFiles/OpenGLTest.dir/glad.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -17,7 +17,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include/KHR"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/sliencio/CLionProjects/OpenGLTest/main.cpp" "/Users/sliencio/CLionProjects/OpenGLTest/cmake-build-debug/CMakeFiles/OpenGLTest.dir/main.cpp.o"
+  "/Users/sliencio/CLionProjects/OpenGL/OpenGLTest/main.cpp" "/Users/sliencio/CLionProjects/OpenGL/OpenGLTest/cmake-build-debug/CMakeFiles/OpenGLTest.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
