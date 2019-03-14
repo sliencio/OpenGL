@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/sliencio/CLionProjects/OpenGL/VertexTest/main.cpp
+/Users/limengen/CLionProjects/OpenGL/VertexTest/main.cpp
 glad.h
 -
 glfw3.h
@@ -54,17 +54,9 @@ GL/glext.h
 GL/glu.h
 -
 
-/usr/local/include/KHR/khrplatform.h
-stdint.h
--
-inttypes.h
--
-stdint.h
--
-
 /usr/local/include/glad/glad.h
 windows.h
 -
-khrplatform.h
+KHR/khrplatform.h
 -
 

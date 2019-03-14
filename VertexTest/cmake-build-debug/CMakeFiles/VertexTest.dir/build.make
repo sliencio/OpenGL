@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/sliencio/CLionProjects/OpenGL/VertexTest
+CMAKE_SOURCE_DIR = /Users/limengen/CLionProjects/OpenGL/VertexTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sliencio/CLionProjects/OpenGL/VertexTest/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/limengen/CLionProjects/OpenGL/VertexTest/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/VertexTest.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/VertexTest.dir/flags.make
 
 CMakeFiles/VertexTest.dir/glad.c.o: CMakeFiles/VertexTest.dir/flags.make
 CMakeFiles/VertexTest.dir/glad.c.o: ../glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sliencio/CLionProjects/OpenGL/VertexTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/VertexTest.dir/glad.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/VertexTest.dir/glad.c.o   -c /Users/sliencio/CLionProjects/OpenGL/VertexTest/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/limengen/CLionProjects/OpenGL/VertexTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/VertexTest.dir/glad.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/VertexTest.dir/glad.c.o   -c /Users/limengen/CLionProjects/OpenGL/VertexTest/glad.c
 
 CMakeFiles/VertexTest.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/VertexTest.dir/glad.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sliencio/CLionProjects/OpenGL/VertexTest/glad.c > CMakeFiles/VertexTest.dir/glad.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/limengen/CLionProjects/OpenGL/VertexTest/glad.c > CMakeFiles/VertexTest.dir/glad.c.i
 
 CMakeFiles/VertexTest.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/VertexTest.dir/glad.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sliencio/CLionProjects/OpenGL/VertexTest/glad.c -o CMakeFiles/VertexTest.dir/glad.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/limengen/CLionProjects/OpenGL/VertexTest/glad.c -o CMakeFiles/VertexTest.dir/glad.c.s
 
 CMakeFiles/VertexTest.dir/main.cpp.o: CMakeFiles/VertexTest.dir/flags.make
 CMakeFiles/VertexTest.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/sliencio/CLionProjects/OpenGL/VertexTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VertexTest.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/VertexTest.dir/main.cpp.o -c /Users/sliencio/CLionProjects/OpenGL/VertexTest/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/limengen/CLionProjects/OpenGL/VertexTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VertexTest.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/VertexTest.dir/main.cpp.o -c /Users/limengen/CLionProjects/OpenGL/VertexTest/main.cpp
 
 CMakeFiles/VertexTest.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/VertexTest.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sliencio/CLionProjects/OpenGL/VertexTest/main.cpp > CMakeFiles/VertexTest.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/limengen/CLionProjects/OpenGL/VertexTest/main.cpp > CMakeFiles/VertexTest.dir/main.cpp.i
 
 CMakeFiles/VertexTest.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/VertexTest.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sliencio/CLionProjects/OpenGL/VertexTest/main.cpp -o CMakeFiles/VertexTest.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/limengen/CLionProjects/OpenGL/VertexTest/main.cpp -o CMakeFiles/VertexTest.dir/main.cpp.s
 
 # Object files for target VertexTest
 VertexTest_OBJECTS = \
@@ -97,7 +97,7 @@ VertexTest: CMakeFiles/VertexTest.dir/build.make
 VertexTest: /usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.dylib
 VertexTest: /usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.dylib
 VertexTest: CMakeFiles/VertexTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/sliencio/CLionProjects/OpenGL/VertexTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable VertexTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/limengen/CLionProjects/OpenGL/VertexTest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable VertexTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/VertexTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/VertexTest.dir/clean:
 .PHONY : CMakeFiles/VertexTest.dir/clean
 
 CMakeFiles/VertexTest.dir/depend:
-	cd /Users/sliencio/CLionProjects/OpenGL/VertexTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sliencio/CLionProjects/OpenGL/VertexTest /Users/sliencio/CLionProjects/OpenGL/VertexTest /Users/sliencio/CLionProjects/OpenGL/VertexTest/cmake-build-debug /Users/sliencio/CLionProjects/OpenGL/VertexTest/cmake-build-debug /Users/sliencio/CLionProjects/OpenGL/VertexTest/cmake-build-debug/CMakeFiles/VertexTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/limengen/CLionProjects/OpenGL/VertexTest/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/limengen/CLionProjects/OpenGL/VertexTest /Users/limengen/CLionProjects/OpenGL/VertexTest /Users/limengen/CLionProjects/OpenGL/VertexTest/cmake-build-debug /Users/limengen/CLionProjects/OpenGL/VertexTest/cmake-build-debug /Users/limengen/CLionProjects/OpenGL/VertexTest/cmake-build-debug/CMakeFiles/VertexTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/VertexTest.dir/depend
 
