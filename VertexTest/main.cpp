@@ -110,6 +110,8 @@ int main() {
     //把顶点着色器附加到着色器对象上，然后编译它 (1.着色器对象 2.传递源码字符串数量 3.顶点着色器真正的源码)
     glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
     glCompileShader(vertexShader);
+    //  (1.表示我们打算将其应用到所有的三角形的正面和背面 2. 绘制的方式（线)
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
     //检测编译成功
     int success;
@@ -166,22 +168,17 @@ int main() {
         processInput(window);
 
         // render
-        // ------
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        // draw our first triangle
-        glUseProgram(shaderProgram);
-        glBindVertexArray(VAO); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
+        //画三角形
         glDrawArrays(GL_TRIANGLES, 0, 3);
-        // glBindVertexArray(0); // no need to unbind it every time
 
-        // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
+        // 双重缓冲
         // -------------------------------------------------------------------------------
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
-
 
     glfwTerminate();
     return 0;
